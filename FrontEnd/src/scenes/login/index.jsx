@@ -54,7 +54,7 @@ const Login = () => {
           <div className="input-field">
             <input
               type="email"
-              placeholder="E-mail"
+              placeholder="E-mail: admin@gmail.com"
               required
               value={username}
               onChange={(e) => setUsername(e.target.value.trim().toLowerCase())}
@@ -65,7 +65,7 @@ const Login = () => {
           <div className="input-field">
             <input
               type="password"
-              placeholder="Senha"
+              placeholder="Senha: 123456"
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
